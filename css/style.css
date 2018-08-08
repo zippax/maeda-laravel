@@ -1,0 +1,21 @@
+@import 'side-navbar.css';
+@import 'main.css';
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+*{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #26272D;
+}
+.container{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  max-width: 1250px;
+  background: #E7ECF1;
+}

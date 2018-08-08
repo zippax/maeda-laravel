@@ -1,0 +1,29 @@
+.main{
+  flex: 1;
+}
+.main .header{
+  display: flex;
+  flex-direction: row;
+  background: #25272F;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  padding: 30px;
+}
+.h-left{
+  flex: 1;
+  color: #fff;
+}
+.h-right{
+  flex: 1;
+  color: #fff;
+  text-align: right;
+}
+.main .tree-header{
+  background: #fff;
+  height: 50px;
+}
+
+.content{
+  margin: 15px;
+}
